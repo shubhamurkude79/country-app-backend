@@ -1,0 +1,39 @@
+{
+  "name": "country-app-backend",
+  "version": "1.0.0",
+  "description": "Backend project for 'country-app' using NodeJS, ExpressJS and MongoDB",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "nodemon --exec babel-node server.mjs",
+    "build": "babel server.mjs -o dist/server.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamurkude79/country-app-backend.git"
+  },
+  "keywords": [],
+  "author": "Shubham Urkude",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamurkude79/country-app-backend/issues"
+  },
+  "homepage": "https://github.com/shubhamurkude79/country-app-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^5.10.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.24.5",
+    "nodemon": "^2.0.20"
+  }
+}
